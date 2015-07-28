@@ -4,6 +4,8 @@ IN2 iOS tutorial. Currently in development. Fell free to make improvements!
 
 This starting page contains a brief overview of tutorial focused on introducing developer to iOS development. For complete tutorial sections select from the table below.
 
+If you need help using git feel free to reference this [tutorial] (https://github.com/Tweety-FER/in2ngPlayground/blob/master/README.md).
+
   1. [Getting started](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%201:%20Getting%20started.md)
   2. [Swift](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%202:%20Swift.md)
 
