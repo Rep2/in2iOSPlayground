@@ -1,6 +1,6 @@
 # in2iOSPlayground
 
-IN2 iOS tutorial. Currently in development. 
+IN2 iOS tutorial. Currently in development. Fell free to make improvements!
 
 This starting page contains a brief overview of tutorial focused on introducing developer to iOS development. For complete tutorial sections select from the table below.
 
