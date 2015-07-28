@@ -4,7 +4,7 @@ IN2 iOS tutorial. Currently in development.
 
 This starting page contains a brief overview of tutorial focused on introducing developer to iOS development. For complete tutorial sections select from the table below.
 
-  1. Getting started
+  1. [Getting started](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%201:%20Getting%20started.md)
   2. Swift
 
 # Chapter 1: Getting started
