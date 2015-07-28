@@ -2,6 +2,11 @@
 
 IN2 iOS tutorial. Currently in development. 
 
+This starting page contains a brief overview of tutorial focusing on introducing developer to iOS development. For complete tutorial sections select from the table below.
+
+  1. Getting started
+  2. TODO
+
 # Getting started
 
 ## Programming languages
@@ -21,6 +26,8 @@ So to follow this tutorial you will need Xcode, which requires OS X, which in tu
 This tutorial is written for Swift 1.2, Xcode 6.4 and OS X 10.10. To get the current version of given software use App Store. Search for Xcode and download newest version. If you already have Xcode, update it from "Updates" tab. OS X is also updated from same tab. Swift comes with Xcode so you don't have to worry about that. Note that to complete these steps you will need an Apple ID which is free and can be registered [here](https://appleid.apple.com/).
 
 [Xcode](https://en.wikipedia.org/wiki/Xcode)
+
+## Playgrounds
 
 
 
