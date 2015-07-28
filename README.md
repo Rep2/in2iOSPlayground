@@ -1,3 +1,5 @@
 # in2iOSPlayground
 
-iOS skolica
+IN2 iOS tutorial. Currently in developement. 
+
+
