@@ -24,6 +24,7 @@ When done breeze through [wiki introduction](https://en.wikipedia.org/wiki/Swift
 
 If you are not familiar with terms like [Multi-paradigm](https://en.wikipedia.org/wiki/Multi-paradigm_programming_language), [Functional programming](https://en.wikipedia.org/wiki/Functional_programming), [Imperative programming](https://en.wikipedia.org/wiki/Imperative_programming), [Static type-checking](https://en.wikipedia.org/wiki/Type_system#Static_type-checking) and [Strong and weak typing](https://en.wikipedia.org/wiki/Strong_and_weak_typing) be sure to take a look at them first.
 
+### [The Basics]
 
 ## Advanced
 
