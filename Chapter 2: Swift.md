@@ -149,16 +149,16 @@ Global and nested functions, as introduced in Functions, are actually special ca
   - When and why do we use them? Show somewhat compelxe example.
   - Demonstrate a couple of shorthand definitions.
 
-Read thru the rest of the chapter taking specail look at [Capturing Values](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html#//apple_ref/doc/uid/TP40014097-CH11-ID103).
+Read thru the rest of the chapter taking special look at [Capturing Values](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html#//apple_ref/doc/uid/TP40014097-CH11-ID103).
 
   - What is trailing closure? Add an example.
   - How and why do we capture values? Add an example.
 
 ### Enumerations, Classes and Structures
 
-Swift introduces a lot of new features to [Enumerations](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145) and [Structures](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ClassesAndStructures.html#//apple_ref/doc/uid/TP40014097-CH13-ID82). Personaly, I have not found a lot of use for these features so for now I would recomend quickly read thru them.
+Swift introduces a lot of new features to [Enumerations](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145) and [Structures](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ClassesAndStructures.html#//apple_ref/doc/uid/TP40014097-CH13-ID82). Personally, I have not found a lot of use for these features so for now I would recommend quickly read thru them.
 
-Pay more attention to classes. If you are somewhat familiar to object oriented programming you should not have much problems. 
+Pay more attention to classes. If you are somewhat familiar to object oriented programming you should not have many problems. 
 
 
 
