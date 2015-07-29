@@ -29,9 +29,9 @@ Lets start. Open Xcode and create new Playground. You create Playground from Fil
 
 When done you should be able to answer these questions.
 
-  What are constans and variables in Swift? How do we use them?
-  What is type annotation? Why we use it and how.
-  What is string interpolation?
+  - What are constans and variables in Swift? How do we use them?
+  - What is type annotation? Why we use it and how.
+  - What is string interpolation?
 
 ## Advanced
 
