@@ -42,6 +42,14 @@ When done you should be able to answer these questions.
   - What is type inference?
   - How do we covert numeric types?
 
+Learn about [Booleans](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID328) and [Tuples](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID329).
+
+When done you should be able to answer these questions.
+
+  - What is Boolean type?
+  - What is Tuple type? How do we use it?
+
+
 ## Advanced
 
 
