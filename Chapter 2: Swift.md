@@ -29,9 +29,18 @@ Lets start. Open Xcode and create new Playground. You create Playground from Fil
 
 When done you should be able to answer these questions.
 
-  - What are constans and variables in Swift? How do we use them?
-  - What is type annotation? Why we use it and how.
+  - What are constants and variables in Swift? How  and why do we use them?
+  - What is type annotation? How and why do we use it.
   - What is string interpolation?
+
+Continue with [Integers](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID317) and read up to [Type Aliases](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID327).
+
+When done you should be able to answer these questions.
+
+  - Name Swift numeric types. 
+  - What is type safety and how is it represented in Swift?
+  - What is type inference?
+  - How do we covert numeric types?
 
 ## Advanced
 
