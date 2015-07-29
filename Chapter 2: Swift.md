@@ -12,17 +12,17 @@ Chapter is divided into three parts: [Basics](https://github.com/Rep2/in2iOSPlay
 
 ## Basics
 
-If you are not familiar with [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) it would be best to learn basics before starting this tutorial. Read thru first two wiki chapters 
-
-This tutorial will hevaily use [The Swift Programming Language](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0) book. 
+If you are not familiar with [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) it would be best to learn the basics before starting this tutorial. Read thru first two wiki chapters. Then take a look at first two chapters of this [tutorial](http://www.raywenderlich.com/81952/intro-object-oriented-design-swift-part-1) which we will later complete.
 
 ### Introduction
 
+This tutorial will heavily use [The Swift Programming Language](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0) book. 
+
 Start with reading [About Swift](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0) page.
 
-When done breeze through [wiki introduction](https://en.wikipedia.org/wiki/Swift_(programming_language)), just first chapter. Then look at first two chapters of this [tutorial](http://www.raywenderlich.com/81952/intro-object-oriented-design-swift-part-1) which we will later complete.
+When done breeze through [wiki introduction](https://en.wikipedia.org/wiki/Swift_(programming_language)), just first chapter. 
 
-  terms like [multi-paradigm](https://en.wikipedia.org/wiki/Multi-paradigm_programming_language), 
+If you are not familiar with terms like [Multi-paradigm](https://en.wikipedia.org/wiki/Multi-paradigm_programming_language), [Functional programming](https://en.wikipedia.org/wiki/Functional_programming), [Imperative programming](https://en.wikipedia.org/wiki/Imperative_programming), [Static type-checking](https://en.wikipedia.org/wiki/Type_system#Static_type-checking) and [Strong and weak typing](https://en.wikipedia.org/wiki/Strong_and_weak_typing) be sure to take a look at them first.
 
 
 ## Advanced
