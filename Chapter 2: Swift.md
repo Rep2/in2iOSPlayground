@@ -117,6 +117,30 @@ Learn about [Dictionaries](https://developer.apple.com/library/ios/documentation
   - Do all Array examples with Dictionary. 
 
 
+### Control Flow
+
+Swift provides all the familiar control flow statements from C-like languages with a couple of neuances. You can read thru this [chapter](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html#//apple_ref/doc/uid/TP40014097-CH9-ID120) quickly but don't skip over details as they contain Swift specific terms.
+
+
+### Fuctions
+
+Functions are self-contained chunks of code that perform a specific task. Swift adops parts of functional paradigm and as such allows for functions, methods that do not belong to type or instance. Altho methods and functions are very similar, they difer in couple of ways. For now start with [functions](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID166), up to [Parameter Names](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID166). 
+
+  - What is function? How do we define function? Add an example.
+  - Declare three functions with different number of agruments and return values.
+
+Objective-C extensivly uses external parameter names. Swift makes this feature easier to use and optional in some palces. For now get accustomed to Swift [function parameter nameing convencions](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID166).
+
+  - Describe Swift function parameter nameing convenctions.
+  - When and why do we use external names?
+  - Show an example of default function argument.
+  - What forms do arguments come in?
+
+As said, Swift adopts parts of functional paradigm. As such, functions in Swift are, whats called, [First-class citizens](https://en.wikipedia.org/wiki/First-class_citizen). That means that functions have avaliable all the operations generally available to other entities. Get familiar with [Function Types](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID174) in this chapter.  
+
+  - What is function type? How do we use it? Show an example.
+
+
 ## Advanced
 
 
