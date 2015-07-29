@@ -12,43 +12,17 @@ Chapter is divided into 3 parts: [Basics](#Basics) which introduces developer wi
 
 ## Basics<a name="Basics"></a>
 
+If your not familiar with [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) it would be best to learn basics before starting this tutorial. Read thru first two wiki chapters 
 
+This tutorail will hevily use [The Swift Programming Language](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0) book. 
 
+### Introduction
 
+Start with reading [About Swift](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0) page.
 
+When done brize through [wiki introduction](https://en.wikipedia.org/wiki/Swift_(programming_language)), just first chapter.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  terms like [multi-paradigm](https://en.wikipedia.org/wiki/Multi-paradigm_programming_language), 
 
 
 ## Advanced
