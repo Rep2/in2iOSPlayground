@@ -14,6 +14,43 @@ Chapter is divided into 3 parts: [Basics](#Basics) which introduces developer wi
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Advanced
 
 
