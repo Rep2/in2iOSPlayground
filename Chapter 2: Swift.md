@@ -62,7 +62,7 @@ To conclude this book chapter look at [Assertions](https://developer.apple.com/l
 
 ### Basic Operators
 
-This [chapter](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-ID60) is very basic. If you have some programming experience just breeze thru it. If you are not familiar with coverd topics read thru it carefully. 
+This [chapter](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-ID60) is very basic. If you have some programming experience just breeze thru it. If you are not familiar with covered topics read thru it carefully. 
 
 Be sure to read [Nil Coalescing Operator](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-ID72) and [Range Operators](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-ID73).
 
