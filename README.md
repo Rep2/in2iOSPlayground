@@ -8,10 +8,7 @@ If you need help using git feel free to reference this [tutorial] (https://githu
 
   1. [Getting started](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%201:%20Getting%20started.md)
   2. [Swift](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%202:%20Swift.md)
-  3. 
-  
-  Bonuses
-  - [Documenting Swift code](https://github.com/Rep2/in2iOSPlayground/blob/master/Documenting%20Swift%20code.md)
+  3. [Documenting Swift code](https://github.com/Rep2/in2iOSPlayground/blob/master/Documenting%20Swift%20code.md)
 
 # Chapter 1: Getting started
 
