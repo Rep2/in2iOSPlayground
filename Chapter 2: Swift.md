@@ -6,9 +6,12 @@
 
 # Chapter 2: Swift
 
+This page is in developement. Fell free to improve it!
+
 This chapter introduces developer with programming language Swift. We use Swift for iOS and OS X native application development.
 
 Chapter is divided into three parts: brief [Introduction](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%202:%20Swift.md#introduction), which introduces developer with Swift and its basic concepts, Advanced which deals with advanced stuff and Finishing Touches which circles this chapter and deals with Swift novelties. Each part is divided into sub parts which come with examples and tasks. I recommend finishing only Basics and going on to Chapter 3. From there tutorials will reference you to this one when needed.
+
 
 ## Introduction
 
@@ -21,6 +24,7 @@ Start with reading [About Swift](https://developer.apple.com/library/ios/documen
 When done breeze through [wiki introduction](https://en.wikipedia.org/wiki/Swift_(programming_language)), just first chapter. 
 
 If you are not familiar with terms like [Multi-paradigm](https://en.wikipedia.org/wiki/Multi-paradigm_programming_language), [Functional programming](https://en.wikipedia.org/wiki/Functional_programming), [Imperative programming](https://en.wikipedia.org/wiki/Imperative_programming), [Static type-checking](https://en.wikipedia.org/wiki/Type_system#Static_type-checking) and [Strong and weak typing](https://en.wikipedia.org/wiki/Strong_and_weak_typing) be sure to take a look at them first.
+
 
 ### The Basics
 
@@ -54,6 +58,13 @@ Learn about [Booleans](https://developer.apple.com/library/ios/documentation/Swi
   - What is implicitly unwrapped optional? Show an example.
   
 To conclude this book chapter look at [Assertions](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID335).
+
+
+### Basic Operators
+
+This chapter is very basic. If you have some programming experience just breeze thru it. If you are not familiar with coverd topics read thru it carefully. 
+
+Be sure to read [Nil Coalescing Operator](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-ID72) and [Range Operators](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-ID73).
 
 ## Advanced
 
