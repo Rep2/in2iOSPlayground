@@ -90,6 +90,33 @@ Carefully read [Accessing and Modifying a String](https://developer.apple.com/li
 
 Quickly read thru [rest of the book chapter](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/StringsAndCharacters.html#//apple_ref/doc/uid/TP40014097-CH7-ID298).
 
+
+### Collection Types
+
+Start with [basics](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID105) and read thru [Array](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID107) chapter.
+
+  - What is Array in Swift? Declare basic String Array.
+  - Show basic Array initalization options.
+  - How to access and modify Array data? Add couple of examples.
+  - How to iterate over Array data? Add two examples.
+
+Learn about [Sets](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID484).
+
+  - What is Set in Swift? Why use them? Add an example.
+  - Do all Array examples with Set.
+
+Learn about [Set Operations](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID490).
+
+  - Show examples for union, subtract, exclusiveOr and intersect methods.
+  - Compare sets.
+  - What is hash value and why do Sets need it?
+
+Learn about [Dictionaries](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID113).
+
+  - What are Dictinaries in Swift?
+  - Do all Array examples with Dictionary. 
+
+
 ## Advanced
 
 
