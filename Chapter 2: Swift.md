@@ -14,7 +14,7 @@ Chapter is divided into four parts: brief [Introduction](https://github.com/Rep2
 
 If you are not familiar with [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) it would be best to learn the basics before starting this tutorial. Read thru first two wiki chapters. Then take a look at first two chapters of this [tutorial](http://www.raywenderlich.com/81952/intro-object-oriented-design-swift-part-1) which we will later complete.
 
-This tutorial will heavily use [The Swift Programming Language](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0) book. 
+We will heavily use [The Swift Programming Language](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0) book. 
 
 Start with reading [About Swift](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0) page.
 
