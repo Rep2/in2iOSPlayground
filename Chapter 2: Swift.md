@@ -45,7 +45,7 @@ Learn about [Booleans](https://developer.apple.com/library/ios/documentation/Swi
   - What is Boolean type? How do we use it?
   - What is Tuple type? How do we use it?
 
-[Optionals] are somewhat new in programming world so be sure to understand it. 
+[Optionals](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID330) are somewhat new in programming world so be sure to understand it. 
 
   - Why optionals?
   - How and when do we use optionals?
