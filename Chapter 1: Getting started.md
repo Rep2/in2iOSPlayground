@@ -27,7 +27,7 @@ So to follow this tutorial you will need Xcode, which requires OS X, which in tu
 
 ## Playground
 
-Playground - noun: a place where people will play
+Playground - noun: a place where people can play
 
 Playground is Xcode tool, a place where developer can experiment with code. It is especially useful when getting familiar with a new programming language. The code compiles and is run at write time and errors are easy to notice and correct. 
 
