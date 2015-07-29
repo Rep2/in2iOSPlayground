@@ -69,7 +69,26 @@ Be sure to read [Nil Coalescing Operator](https://developer.apple.com/library/io
 
 ### Strings and Characters
 
+Start with [Strings](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/StringsAndCharacters.html#//apple_ref/doc/uid/TP40014097-CH7-ID285) and read up to [Unicode](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/StringsAndCharacters.html#//apple_ref/doc/uid/TP40014097-CH7-ID293).
 
+  - What is String in Swift? Create one.
+  - What dose "Strings Are Value Types" mean?
+  - Print all strings characters.
+  - Concatinate strings using addition operator and string interpolation.
+
+Before reading [Counting Characters](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/StringsAndCharacters.html#//apple_ref/doc/uid/TP40014097-CH7-ID297) quickly read thru [Unicode](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/StringsAndCharacters.html#//apple_ref/doc/uid/TP40014097-CH7-ID293).
+
+  - How do we count string characters? Why do we use this method? Add example.
+
+Carefully read [Accessing and Modifying a String](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/StringsAndCharacters.html#//apple_ref/doc/uid/TP40014097-CH7-ID494).
+
+  - What is string index?
+  - How do we access character at particular string position? Add example.
+  - How do we add character at specific position? Add example.
+  - How do we add string to another string at specific position? Add example.
+  - How do we remove portion of string? Add example.
+
+Quickly read thru [rest of the book chapter](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/StringsAndCharacters.html#//apple_ref/doc/uid/TP40014097-CH7-ID298).
 
 ## Advanced
 
