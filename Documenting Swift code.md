@@ -3,7 +3,7 @@ For Xcode 6.4
 
 This page is currently under development. Fell free to make improvements!
 
-As said in [this article](http://nshipster.com/swift-documentation/), code structure and organization is a matter of pride for developers. I would also say that it generaly improves product quality, especialy when working in teams. One of the main parts of code structure and organization is code documentation. Lets learn how to do it for Swift. 
+As said in [this article](http://nshipster.com/swift-documentation/), code structure and organization is a matter of pride for developers. I would also say that it generally improves product quality, especially when working in teams. One of the main parts of code structure and organization is code documentation. Let's learn how to do it for Swift. 
 
 ## [reStructuredText](http://docutils.sourceforge.net/rst.html)
 
@@ -13,7 +13,7 @@ This came as a suprise as Apple used [HeaderDoc](https://developer.apple.com/lib
 
 reStructuredText is simple and expresive and as such has becomed quite popular. All code can be documented with basic sintaks described in this [article](http://nshipster.com/swift-documentation/). When done with this tutorial complete [first example].
 
-## Swift 2
+## [Swift 2](https://developer.apple.com/swift/blog/?id=29)
 
 Apple recently announced Swift 2 which is supose to come out in fall of 2015. Among others, it seams that Swift 2 will use [Markup Language](https://en.wikipedia.org/wiki/Markup_language) as talked about in this [forum post](https://forums.developer.apple.com/thread/3491) and listed in this [forum post](https://forums.developer.apple.com/message/5513#5513). 
 
