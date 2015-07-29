@@ -119,26 +119,47 @@ Learn about [Dictionaries](https://developer.apple.com/library/ios/documentation
 
 ### Control Flow
 
-Swift provides all the familiar control flow statements from C-like languages with a couple of neuances. You can read thru this [chapter](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html#//apple_ref/doc/uid/TP40014097-CH9-ID120) quickly but don't skip over details as they contain Swift specific terms.
+Swift provides all the familiar control flow statements from C-like languages with a couple of nuances. You can read thru this [chapter](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html#//apple_ref/doc/uid/TP40014097-CH9-ID120) quickly, but don't skip over details as they contain Swift specific terms.
 
 
-### Fuctions
+### Functions
 
-Functions are self-contained chunks of code that perform a specific task. Swift adops parts of functional paradigm and as such allows for functions, methods that do not belong to type or instance. Altho methods and functions are very similar, they difer in couple of ways. For now start with [functions](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID166), up to [Parameter Names](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID166). 
+Functions are self-contained chunks of code that perform a specific task. Swift adopts parts of functional paradigm and as such allows for functions, methods that do not belong to type or instance. Although methods and functions are very similar, they differ in couple of ways. For now start with [functions](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID166), up to [Parameter Names](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID166). 
 
   - What is function? How do we define function? Add an example.
-  - Declare three functions with different number of agruments and return values.
+  - Declare three functions with different number of arguments and return values.
 
-Objective-C extensivly uses external parameter names. Swift makes this feature easier to use and optional in some palces. For now get accustomed to Swift [function parameter nameing convencions](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID166).
+Objective-C extensively uses external parameter names. Swift makes this feature easier to use and optional in some places. For now get accustomed to Swift [function parameter naming conventions](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID166).
 
-  - Describe Swift function parameter nameing convenctions.
+  - Describe Swift function parameter naming convenctions.
   - When and why do we use external names?
   - Show an example of default function argument.
   - What forms do arguments come in?
 
-As said, Swift adopts parts of functional paradigm. As such, functions in Swift are, whats called, [First-class citizens](https://en.wikipedia.org/wiki/First-class_citizen). That means that functions have avaliable all the operations generally available to other entities. Get familiar with [Function Types](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID174) in this chapter.  
+As said, Swift adopts parts of functional paradigm. As such, functions in Swift are, what's called, [First-class citizens](https://en.wikipedia.org/wiki/First-class_citizen). That means that functions have available all the operations generally available to other entities. Get familiar with [Function Types](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID174) in this chapter.  
 
   - What is function type? How do we use it? Show an example.
+
+
+### Closures
+
+Global and nested functions, as introduced in Functions, are actually special cases of closures, as are methods. Thirs type of closures are unnamed closure which are similar to lambdas in other programming languages. Carefully read thru [first section](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html#//apple_ref/doc/uid/TP40014097-CH11-ID94) and answer folowing questions.
+
+  - What are closures?
+  - When and why do we use them? Show somewhat compelxe example.
+  - Demonstrate a couple of shorthand definitions.
+
+Read thru the rest of the chapter taking specail look at [Capturing Values](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html#//apple_ref/doc/uid/TP40014097-CH11-ID103).
+
+  - What is trailing closure? Add an example.
+  - How and why do we capture values? Add an example.
+
+### Enumerations, Classes and Structures
+
+Swift introduces a lot of new features to [Enumerations](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145) and [Structures](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ClassesAndStructures.html#//apple_ref/doc/uid/TP40014097-CH13-ID82). Personaly, I have not found a lot of use for these features so for now I would recomend quickly read thru them.
+
+Pay more attention to classes. If you are somewhat familiar to object oriented programming you should not have much problems. 
+
 
 
 ## Advanced
