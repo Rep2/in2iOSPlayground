@@ -14,7 +14,7 @@ Chapter is divided into three parts: brief [Introduction](https://github.com/Rep
 
 If you are not familiar with [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) it would be best to learn the basics before starting this tutorial. Read thru first two wiki chapters. Then take a look at first two chapters of this [tutorial](http://www.raywenderlich.com/81952/intro-object-oriented-design-swift-part-1) which we will later complete.
 
-We will heavily use [The Swift Programming Language](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0) book. Feel free to read it as you see fit just be sure too look at questions after each chapter.
+We will heavily use [The Swift Programming Language](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0) book. Feel free to read it as you see fit just be sure to look at questions after each chapter.
 
 Start with reading [About Swift](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0) page.
 
@@ -24,12 +24,12 @@ If you are not familiar with terms like [Multi-paradigm](https://en.wikipedia.or
 
 ### The Basics
 
-Lets start. Open Xcode and create new Playground. You create Playground from File -> New -> Playground. Read [The basics](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID310) and [Costants and variables](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID310) chapters. Test code you learn in Playground.
+Let's start. Open Xcode and create new Playground. You create Playground from File -> New -> Playground. Read [The basics](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID310) and [Costants and variables](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID310) chapters. Test code you learn in Playground.
 
 When done you should be able to answer these questions.
 
-  - What are constants and variables in Swift? How  and why do we use them?
-  - What is type annotation? How and why do we use it.
+  - What are constants and variables in Swift? How and why do we use them?
+  - What is type annotation? How and why do we use it?
   - What is string interpolation?
 
 Continue with [Integers](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID317) and read up to [Type Aliases](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID327).
