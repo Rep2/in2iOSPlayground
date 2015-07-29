@@ -8,9 +8,9 @@
 
 This chapter introduces developer with programming language Swift. We use Swift for iOS and OS X native application development.
 
-Chapter is divided into 3 parts: [Basics](#Basics) which introduces developer with Swift and its basic concepts, Advanced wich deals with advanced stuff and Finishing Touches which circles this chapter and deals with Swift novelties. Each part is divided into subparts which come with examples and tasks. I recommend finishing only Basics and going on to Chapter 3. From there tutorials will reference you to this one when needed.
+Chapter is divided into 3 parts: [Basics](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%202:%20Swift.md#basics) which introduces developer with Swift and its basic concepts, Advanced wich deals with advanced stuff and Finishing Touches which circles this chapter and deals with Swift novelties. Each part is divided into subparts which come with examples and tasks. I recommend finishing only Basics and going on to Chapter 3. From there tutorials will reference you to this one when needed.
 
-## Basics<a name="Basics"></a>
+## Basics
 
 If your not familiar with [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) it would be best to learn basics before starting this tutorial. Read thru first two wiki chapters 
 
