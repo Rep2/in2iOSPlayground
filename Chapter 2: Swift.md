@@ -66,6 +66,11 @@ This chapter is very basic. If you have some programming experience just breeze 
 
 Be sure to read [Nil Coalescing Operator](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-ID72) and [Range Operators](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/BasicOperators.html#//apple_ref/doc/uid/TP40014097-CH6-ID73).
 
+
+### Strings and Characters
+
+
+
 ## Advanced
 
 
