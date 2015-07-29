@@ -35,8 +35,6 @@ When done you should be able to answer these questions.
 
 Continue with [Integers](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID317) and read up to [Type Aliases](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID327).
 
-When done you should be able to answer these questions.
-
   - Name Swift numeric types. 
   - What is type safety and how is it represented in Swift?
   - What is type inference?
@@ -44,11 +42,19 @@ When done you should be able to answer these questions.
 
 Learn about [Booleans](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID328) and [Tuples](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID329).
 
-When done you should be able to answer these questions.
-
-  - What is Boolean type?
+  - What is Boolean type? How do we use it?
   - What is Tuple type? How do we use it?
 
+[Optionals] are somewhat new in programming world so be sure to understand it. 
+
+  - Why optionals?
+  - How and when do we use optionals?
+  - What is nil?
+  - What is forced unwrapping? Show an example.
+  - What is optional binding? Show an example.
+  - What is implicitly unwrapped optional? Show an example.
+  
+To conclude this book chapter look at [Assertions](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID335).
 
 ## Advanced
 
