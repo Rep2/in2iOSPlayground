@@ -18,7 +18,7 @@ reStructuredText is simple and expresive and as such became quite popular. All c
 
 Apple recently announced Swift 2 which is suppose to come out in fall of 2015. Among others, it seems that Swift 2 will use [Markup Language](https://en.wikipedia.org/wiki/Markup_language) as talked about in this [forum post](https://forums.developer.apple.com/thread/3491) and listed in this [forum post](https://forums.developer.apple.com/message/5513#5513). 
 
-Not much is currently known about Swift 2 documentation syntax. Only post I could find is [this one](http://ericasadun.com/2015/06/14/swift-header-documentation-in-xcode-7/) which is somewhat brief. Even this [official tutorial app](https://developer.apple.com/library/prerelease/ios/samplecode/DemoBots/Listings/Swift_SceneOverlay_swift.html#//apple_ref/doc/uid/TP40015179-Swift_SceneOverlay_swift-DontLinkElementID_86) written by Apple for Swift 2 introduction contains non formatted documentation. 
+Not much is currently known about Swift 2 documentation syntax. Only post I could find is [this one](http://ericasadun.com/2015/06/14/swift-header-documentation-in-xcode-7/) which is somewhat brief. Even this [official tutorial app](https://developer.apple.com/library/prerelease/ios/samplecode/DemoBots/Listings/Swift_SceneOverlay_swift.html#//apple_ref/doc/uid/TP40015179-Swift_SceneOverlay_swift-DontLinkElementID_86) written by Apple for Swift 2 contains non formatted documentation. 
 
 Have in mind that documentation will change and with it tools we use will need a change. I think it's still useful to learn reStructuredText as it's simple enough to use even for couple of months.
 
