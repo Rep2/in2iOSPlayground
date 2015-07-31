@@ -12,7 +12,7 @@ Swift code documentation is based on [reStructuredText](https://en.wikipedia.org
 
 This came as a suprise as Apple used [HeaderDoc](https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/HeaderDoc/intro/intro.html#//apple_ref/doc/uid/TP40001215-CH345-SW1), set of tools for embedding structured comments in source code and header files, to document Objective-C code. With this change [Quick Help](https://developer.apple.com/library/ios/recipes/xcode_help-general/Chapters/AboutQuickHelp.html), Xcode documenting tool, is no longer compatible with HeaderDoc tool. 
 
-reStructuredText is simple and expresive and as such has becomed quite popular. All code can be documented with basic sintaks described in this [article](http://nshipster.com/swift-documentation/). When done with this tutorial complete [first example].
+reStructuredText is simple and expresive and as such became quite popular. All code can be documented with basic sintaks described in this [article](http://nshipster.com/swift-documentation/). When done with this tutorial complete [first example].
 
 ## [Swift 2](https://developer.apple.com/swift/blog/?id=29)
 
