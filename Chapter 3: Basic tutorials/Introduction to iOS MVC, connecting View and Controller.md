@@ -36,5 +36,8 @@ We will continue with same tutorial. Follow [tutorial](https://developer.apple.c
 To finish this section we take a deeper look into UIViewController. Follow this [tutorial](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson4.html#//apple_ref/doc/uid/TP40015214-CH6-SW1).
 
 
+## Task
 
+At the end of this section complete following task.
 
+Build basic application that simulates user registration. Application should consist of one UIView which contains fields for username and password input, date picker for birthday input and switch for gender input. All inputs should be intuitive (use labels as needed). Finnaly, add button to bottom of the screen. On button press print all inputs in Developer Console.
