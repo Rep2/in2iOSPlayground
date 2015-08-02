@@ -8,7 +8,8 @@ If you need help using git feel free to reference this [tutorial] (https://githu
 
   1. [Getting started](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%201:%20Getting%20started.md)
   2. [Swift](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%202:%20Swift.md)
-  3. [Basic tutorials](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%203:%20Basic%20tutorials.md)
+  3. [Basic tutorials](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%203:%20Basic%20tutorials/Chapter%203:%20Basic%20tutorials.md)
+    1. [Introduction to iOS MVC, connecting View and Controller](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%203:%20Basic%20tutorials/Introduction%20to%20iOS%20MVC%2C%20connecting%20View%20and%20Controller.md)
   4. [Documenting Swift code](https://github.com/Rep2/in2iOSPlayground/blob/master/Documenting%20Swift%20code.md)
 
 # Chapter 1: Getting started
