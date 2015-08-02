@@ -45,7 +45,7 @@ Playground is Xcode tool, a place where developer can experiment with code. It i
 
 This chapter introduces developer with programming language Swift. We use Swift for iOS and OS X native application development.
 
-Read thru first section, [Introduction](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%202:%20Swift.md#introduction), of this chapter. This section should give you enaugh knowladge about Swift to complete basic tutorials and build couple of simple applications. 
+Read thru first section, named [Introduction](https://github.com/Rep2/in2iOSPlayground/blob/master/Chapter%202:%20Swift.md#introduction), of this chapter. This section should give you enaugh knowladge about Swift to complete basic tutorials and build couple of simple applications. 
 
 Advanced tutorials will link to advanced Swift topics when needed.
 
