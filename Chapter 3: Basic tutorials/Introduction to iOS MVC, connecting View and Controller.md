@@ -5,7 +5,7 @@ Apple extensivly uses Model-View-Controller (MVC) design pattern in building iOS
 
 ## View Controllers and Views
 
-View Controllers are basic application building blocks. Read thru [View Controller Basics](https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/AboutViewControllers/AboutViewControllers.html#//apple_ref/doc/uid/TP40007457-CH112-SW10). Read carefully thru first two sections but breeeze over the rest.
+View Controllers are basic application building blocks. Read thru [View Controller Basics](https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/AboutViewControllers/AboutViewControllers.html#//apple_ref/doc/uid/TP40007457-CH112-SW10). Carefully read first two sections but breeeze over the rest.
 
 What you should know:
 
@@ -15,7 +15,26 @@ What you should know:
 	- What is UIViewController? Why and where is it used?
 	- How does UIViewController controll UIView?
 
-	- What is Storyboard
+	- What is Storyboard?
+
+## Building a Basic UI
+
+Now that we know that iOS apps consist of many UIViews, and that each UIView has its UIViewController, lets see how to add elements to our starting UIView.
+
+Read and finish this tutorial. It will take you thru [Building a Basic UI](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson2.html#//apple_ref/doc/uid/TP40015214-CH5-SW1).
+
+This tutorial is also an example for this section. Folow it and build your first application. When done add your project to this directory.
+
+
+## Connecting the UI to Code
+
+We will continue with same tutorial. Follow [tutorial](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson3.html#//apple_ref/doc/uid/TP40015214-CH22-SW1) and when done, add your project to this dictionary.
+
+
+## View Controller deeper look
+
+To finish this section we take a deeper look into UIViewController. Follow this [tutorial](https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson4.html#//apple_ref/doc/uid/TP40015214-CH6-SW1).
+
 
 
 
