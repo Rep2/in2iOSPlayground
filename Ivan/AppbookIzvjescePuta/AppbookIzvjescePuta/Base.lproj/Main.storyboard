@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wSb-h3-34B">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Placeholder View-->
+        <scene sceneID="wYm-sF-5ze">
+            <objects>
+                <viewController storyboardIdentifier="placeholder" title="Placeholder View" id="wSb-h3-34B" customClass="IPPlaceholderView" customModule="AppbookIzvjescePuta" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cf6-Wp-7Rh"/>
+                        <viewControllerLayoutGuide type="bottom" id="4SZ-AL-yc7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zZ8-Ti-R6l">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTh-rj-Dah">
+                                <rect key="frame" x="117.5" y="269" width="85" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <state key="normal" title="Izvješće puta">
+                                    <color key="titleColor" red="0.80000000000000004" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextView:" destination="wSb-h3-34B" eventType="touchUpInside" id="iOH-En-NPf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="aTh-rj-Dah" secondAttribute="centerY" id="Hle-Kw-7HW"/>
+                            <constraint firstAttribute="centerX" secondItem="aTh-rj-Dah" secondAttribute="centerX" id="s2t-gs-fhB"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LJ5-8b-lvu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11" y="120"/>
+        </scene>
+        <!--Data View-->
+        <scene sceneID="6c7-5U-M9c">
+            <objects>
+                <viewController storyboardIdentifier="izvjescePuta" id="LOT-h3-vcZ" customClass="IPDataView" customModule="AppbookIzvjescePuta" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dQT-Sx-F5r"/>
+                        <viewControllerLayoutGuide type="bottom" id="Voh-VD-zGw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YaK-HF-qQ4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naslov 1" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Hk-Ki-l12">
+                                <rect key="frame" x="16" y="74" width="288" height="21.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Podnaslov 1" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWS-8C-WTU">
+                                <rect key="frame" x="16" y="105" width="288" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naslov 2" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7KV-b0-jhY">
+                                <rect key="frame" x="16" y="139" width="288" height="19.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJR-r1-JQ1">
+                                <rect key="frame" x="20" y="522" width="280" height="34"/>
+                                <color key="backgroundColor" red="0.18039215689999999" green="0.80000000000000004" blue="0.4431372549" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="dcy-tu-fPs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                <state key="normal" title="Pošalji">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="posalji:" destination="LOT-h3-vcZ" eventType="touchUpInside" id="dEd-yq-LGN"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qZo-md-daX">
+                                <rect key="frame" x="20" y="168" width="280" height="341.5"/>
+                                <color key="tintColor" red="0.043137254899999998" green="0.37647058820000001" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="7KV-b0-jhY" secondAttribute="centerX" id="2aB-Os-CE8"/>
+                            <constraint firstItem="qZo-md-daX" firstAttribute="leading" secondItem="YaK-HF-qQ4" secondAttribute="leading" constant="20" id="5xu-WZ-97Z"/>
+                            <constraint firstItem="MWS-8C-WTU" firstAttribute="leading" secondItem="YaK-HF-qQ4" secondAttribute="leading" constant="16" id="ECy-4r-aOm"/>
+                            <constraint firstItem="7KV-b0-jhY" firstAttribute="leading" secondItem="YaK-HF-qQ4" secondAttribute="leading" constant="16" id="HPP-T7-NOk"/>
+                            <constraint firstItem="MWS-8C-WTU" firstAttribute="top" secondItem="7Hk-Ki-l12" secondAttribute="bottom" constant="10" id="Kla-Jc-eF9"/>
+                            <constraint firstItem="qZo-md-daX" firstAttribute="top" secondItem="7KV-b0-jhY" secondAttribute="bottom" constant="10" id="Ng5-u3-20r"/>
+                            <constraint firstItem="7Hk-Ki-l12" firstAttribute="leading" secondItem="YaK-HF-qQ4" secondAttribute="leading" constant="16" id="Thk-6q-rne"/>
+                            <constraint firstAttribute="centerX" secondItem="MWS-8C-WTU" secondAttribute="centerX" id="UeD-RT-pJa"/>
+                            <constraint firstAttribute="centerX" secondItem="7Hk-Ki-l12" secondAttribute="centerX" id="WvR-ED-nDj"/>
+                            <constraint firstItem="WJR-r1-JQ1" firstAttribute="top" secondItem="qZo-md-daX" secondAttribute="bottom" constant="12" id="bbS-9s-Wmr"/>
+                            <constraint firstAttribute="centerX" secondItem="WJR-r1-JQ1" secondAttribute="centerX" id="gAR-GG-kpk"/>
+                            <constraint firstAttribute="centerX" secondItem="qZo-md-daX" secondAttribute="centerX" id="qXK-LA-eo9"/>
+                            <constraint firstItem="WJR-r1-JQ1" firstAttribute="leading" secondItem="YaK-HF-qQ4" secondAttribute="leading" constant="20" id="sVR-f5-r4M"/>
+                            <constraint firstItem="7KV-b0-jhY" firstAttribute="top" secondItem="MWS-8C-WTU" secondAttribute="bottom" constant="15" id="tfO-nL-FkZ"/>
+                            <constraint firstItem="7Hk-Ki-l12" firstAttribute="top" secondItem="YaK-HF-qQ4" secondAttribute="top" constant="74" id="zQX-uJ-Vwv"/>
+                            <constraint firstItem="Voh-VD-zGw" firstAttribute="top" secondItem="WJR-r1-JQ1" secondAttribute="bottom" constant="12" id="zcc-6f-sV6"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="button" destination="WJR-r1-JQ1" id="8Ms-OO-c6C"/>
+                        <outlet property="naslov1" destination="7Hk-Ki-l12" id="u8W-Ft-l21"/>
+                        <outlet property="naslov2" destination="7KV-b0-jhY" id="IIw-mJ-46o"/>
+                        <outlet property="podnaslov1" destination="MWS-8C-WTU" id="xuq-hj-bsR"/>
+                        <outlet property="textField" destination="qZo-md-daX" id="4BD-9k-8T5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h4e-0s-FBS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="497" y="137"/>
+        </scene>
+    </scenes>
+</document>

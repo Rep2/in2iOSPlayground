@@ -1,0 +1,13 @@
+platform :ios, '7.1'
+use_frameworks!
+
+
+target 'appBookLogin' do
+pod 'AFNetworking','~> 2.0'
+pod "Locksmith"
+end
+
+target 'appBookLoginTests' do
+
+end
+

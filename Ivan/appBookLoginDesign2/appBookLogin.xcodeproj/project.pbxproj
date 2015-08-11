@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94438CCF46B9BA89C817A073 /* Pods_appBookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EEACD0B2CEB3B13118FECE /* Pods_appBookLogin.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F06F3BCD1B70AB6E004A8FAD /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06F3BCC1B70AB6E004A8FAD /* KeyChain.swift */; };
+		F06F3BCF1B70BC0A004A8FAD /* Djelatnik.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06F3BCE1B70BC0A004A8FAD /* Djelatnik.swift */; };
+		F08E611B1B73638000077C66 /* ALViewControllerBeginScreenV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08E611A1B73638000077C66 /* ALViewControllerBeginScreenV2.swift */; };
+		F08E611D1B7375FE00077C66 /* ALViewInputV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08E611C1B7375FE00077C66 /* ALViewInputV2.swift */; };
+		F0B63EB11B6F534C00E3F19C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B63EB01B6F534C00E3F19C /* AppDelegate.swift */; };
+		F0B63EB61B6F534C00E3F19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B63EB41B6F534C00E3F19C /* Main.storyboard */; };
+		F0B63EB81B6F534C00E3F19C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B63EB71B6F534C00E3F19C /* Images.xcassets */; };
+		F0B63EBB1B6F534C00E3F19C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B63EB91B6F534C00E3F19C /* LaunchScreen.xib */; };
+		F0B63EC71B6F534D00E3F19C /* appBookLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B63EC61B6F534D00E3F19C /* appBookLoginTests.swift */; };
+		F0B63ED81B6F5D6D00E3F19C /* RSWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B63ED71B6F5D6D00E3F19C /* RSWireframe.swift */; };
+		F0B63EDB1B6F688100E3F19C /* ALBeginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B63EDA1B6F688100E3F19C /* ALBeginScreen.swift */; };
+		F0B63EDE1B6F6C8E00E3F19C /* ALBeginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B63EDD1B6F6C8E00E3F19C /* ALBeginPresenter.swift */; };
+		F0B63EE01B6F6DDC00E3F19C /* ALInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B63EDF1B6F6DDC00E3F19C /* ALInput.swift */; };
+		F0B63EE21B6F6F0B00E3F19C /* ALInputInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B63EE11B6F6F0B00E3F19C /* ALInputInteractor.swift */; };
+		F0B63EE41B6F73B700E3F19C /* ALPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B63EE31B6F73B700E3F19C /* ALPresenter.swift */; };
+		F0B63EE61B6F755200E3F19C /* ALInputPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B63EE51B6F755200E3F19C /* ALInputPresenter.swift */; };
+		F0B63EED1B6F7EC700E3F19C /* ALNetworkLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B63EEC1B6F7EC700E3F19C /* ALNetworkLogin.swift */; };
+		F0B63EF01B6F9C0900E3F19C /* ALNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B63EEF1B6F9C0900E3F19C /* ALNetwork.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0B63EC11B6F534D00E3F19C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0B63EA31B6F534C00E3F19C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0B63EAA1B6F534C00E3F19C;
+			remoteInfo = appBookLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		371F8061EB32296FCD6BD5EC /* Pods-appBookLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appBookLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-appBookLogin/Pods-appBookLogin.release.xcconfig"; sourceTree = "<group>"; };
+		84EEACD0B2CEB3B13118FECE /* Pods_appBookLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appBookLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A0B704D464935392ABD780 /* Pods-appBookLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appBookLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appBookLogin/Pods-appBookLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		F06F3BCC1B70AB6E004A8FAD /* KeyChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
+		F06F3BCE1B70BC0A004A8FAD /* Djelatnik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Djelatnik.swift; sourceTree = "<group>"; };
+		F08E611A1B73638000077C66 /* ALViewControllerBeginScreenV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALViewControllerBeginScreenV2.swift; sourceTree = "<group>"; };
+		F08E611C1B7375FE00077C66 /* ALViewInputV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALViewInputV2.swift; sourceTree = "<group>"; };
+		F0B63EAB1B6F534C00E3F19C /* appBookLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appBookLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B63EAF1B6F534C00E3F19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B63EB01B6F534C00E3F19C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0B63EB51B6F534C00E3F19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0B63EB71B6F534C00E3F19C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0B63EBA1B6F534C00E3F19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F0B63EC01B6F534D00E3F19C /* appBookLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appBookLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B63EC51B6F534D00E3F19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B63EC61B6F534D00E3F19C /* appBookLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appBookLoginTests.swift; sourceTree = "<group>"; };
+		F0B63ED71B6F5D6D00E3F19C /* RSWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSWireframe.swift; sourceTree = "<group>"; };
+		F0B63EDA1B6F688100E3F19C /* ALBeginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALBeginScreen.swift; sourceTree = "<group>"; };
+		F0B63EDD1B6F6C8E00E3F19C /* ALBeginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALBeginPresenter.swift; sourceTree = "<group>"; };
+		F0B63EDF1B6F6DDC00E3F19C /* ALInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALInput.swift; sourceTree = "<group>"; };
+		F0B63EE11B6F6F0B00E3F19C /* ALInputInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALInputInteractor.swift; sourceTree = "<group>"; };
+		F0B63EE31B6F73B700E3F19C /* ALPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALPresenter.swift; sourceTree = "<group>"; };
+		F0B63EE51B6F755200E3F19C /* ALInputPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALInputPresenter.swift; sourceTree = "<group>"; };
+		F0B63EE81B6F7DF800E3F19C /* appBookLogin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "appBookLogin-Bridging-Header.h"; sourceTree = "<group>"; };
+		F0B63EEC1B6F7EC700E3F19C /* ALNetworkLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALNetworkLogin.swift; sourceTree = "<group>"; };
+		F0B63EEF1B6F9C0900E3F19C /* ALNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALNetwork.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0B63EA81B6F534C00E3F19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94438CCF46B9BA89C817A073 /* Pods_appBookLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B63EBD1B6F534D00E3F19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E4E102892FD59C8181F54FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84EEACD0B2CEB3B13118FECE /* Pods_appBookLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC54904CDDA0E734C09FB163 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94A0B704D464935392ABD780 /* Pods-appBookLogin.debug.xcconfig */,
+				371F8061EB32296FCD6BD5EC /* Pods-appBookLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0B63EA21B6F534C00E3F19C = {
+			isa = PBXGroup;
+			children = (
+				F0B63EAD1B6F534C00E3F19C /* appBookLogin */,
+				F0B63EC31B6F534D00E3F19C /* appBookLoginTests */,
+				F0B63EAC1B6F534C00E3F19C /* Products */,
+				DC54904CDDA0E734C09FB163 /* Pods */,
+				8E4E102892FD59C8181F54FB /* Frameworks */,
+				F0B63EE81B6F7DF800E3F19C /* appBookLogin-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		F0B63EAC1B6F534C00E3F19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0B63EAB1B6F534C00E3F19C /* appBookLogin.app */,
+				F0B63EC01B6F534D00E3F19C /* appBookLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0B63EAD1B6F534C00E3F19C /* appBookLogin */ = {
+			isa = PBXGroup;
+			children = (
+				F0B63EEB1B6F7EA200E3F19C /* DataStores */,
+				F0B63EDC1B6F6C5100E3F19C /* Presenters */,
+				F0B63ED91B6F681200E3F19C /* View */,
+				F0B63ED61B6F5D4900E3F19C /* wireframe */,
+				F0B63ED21B6F566000E3F19C /* Interactor */,
+				F0B63ED11B6F565600E3F19C /* Entity */,
+				F0B63EB01B6F534C00E3F19C /* AppDelegate.swift */,
+				F0B63EB41B6F534C00E3F19C /* Main.storyboard */,
+				F0B63EB71B6F534C00E3F19C /* Images.xcassets */,
+				F0B63EB91B6F534C00E3F19C /* LaunchScreen.xib */,
+				F0B63EAE1B6F534C00E3F19C /* Supporting Files */,
+			);
+			path = appBookLogin;
+			sourceTree = "<group>";
+		};
+		F0B63EAE1B6F534C00E3F19C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0B63EAF1B6F534C00E3F19C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0B63EC31B6F534D00E3F19C /* appBookLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0B63EC61B6F534D00E3F19C /* appBookLoginTests.swift */,
+				F0B63EC41B6F534D00E3F19C /* Supporting Files */,
+			);
+			path = appBookLoginTests;
+			sourceTree = "<group>";
+		};
+		F0B63EC41B6F534D00E3F19C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0B63EC51B6F534D00E3F19C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0B63ED11B6F565600E3F19C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F06F3BCE1B70BC0A004A8FAD /* Djelatnik.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		F0B63ED21B6F566000E3F19C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F0B63EE11B6F6F0B00E3F19C /* ALInputInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		F0B63ED61B6F5D4900E3F19C /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				F0B63ED71B6F5D6D00E3F19C /* RSWireframe.swift */,
+			);
+			name = wireframe;
+			sourceTree = "<group>";
+		};
+		F0B63ED91B6F681200E3F19C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F08E611C1B7375FE00077C66 /* ALViewInputV2.swift */,
+				F0B63EDA1B6F688100E3F19C /* ALBeginScreen.swift */,
+				F0B63EDF1B6F6DDC00E3F19C /* ALInput.swift */,
+				F08E611A1B73638000077C66 /* ALViewControllerBeginScreenV2.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F0B63EDC1B6F6C5100E3F19C /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				F0B63EDD1B6F6C8E00E3F19C /* ALBeginPresenter.swift */,
+				F0B63EE31B6F73B700E3F19C /* ALPresenter.swift */,
+				F0B63EE51B6F755200E3F19C /* ALInputPresenter.swift */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		F0B63EEB1B6F7EA200E3F19C /* DataStores */ = {
+			isa = PBXGroup;
+			children = (
+				F0B63EEC1B6F7EC700E3F19C /* ALNetworkLogin.swift */,
+				F0B63EEF1B6F9C0900E3F19C /* ALNetwork.swift */,
+				F06F3BCC1B70AB6E004A8FAD /* KeyChain.swift */,
+			);
+			name = DataStores;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0B63EAA1B6F534C00E3F19C /* appBookLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B63ECA1B6F534D00E3F19C /* Build configuration list for PBXNativeTarget "appBookLogin" */;
+			buildPhases = (
+				4EF525B31B61BD4E75345DC4 /* Check Pods Manifest.lock */,
+				F0B63EA71B6F534C00E3F19C /* Sources */,
+				F0B63EA81B6F534C00E3F19C /* Frameworks */,
+				F0B63EA91B6F534C00E3F19C /* Resources */,
+				9F793A7CF165499D78BE83A7 /* Embed Pods Frameworks */,
+				5A397B02797FE8EF060CB8F1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appBookLogin;
+			productName = appBookLogin;
+			productReference = F0B63EAB1B6F534C00E3F19C /* appBookLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0B63EBF1B6F534D00E3F19C /* appBookLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B63ECD1B6F534D00E3F19C /* Build configuration list for PBXNativeTarget "appBookLoginTests" */;
+			buildPhases = (
+				F0B63EBC1B6F534D00E3F19C /* Sources */,
+				F0B63EBD1B6F534D00E3F19C /* Frameworks */,
+				F0B63EBE1B6F534D00E3F19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0B63EC21B6F534D00E3F19C /* PBXTargetDependency */,
+			);
+			name = appBookLoginTests;
+			productName = appBookLoginTests;
+			productReference = F0B63EC01B6F534D00E3F19C /* appBookLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0B63EA31B6F534C00E3F19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "IN2 MacbookPro";
+				TargetAttributes = {
+					F0B63EAA1B6F534C00E3F19C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = UQ456767XG;
+					};
+					F0B63EBF1B6F534D00E3F19C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F0B63EAA1B6F534C00E3F19C;
+					};
+				};
+			};
+			buildConfigurationList = F0B63EA61B6F534C00E3F19C /* Build configuration list for PBXProject "appBookLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0B63EA21B6F534C00E3F19C;
+			productRefGroup = F0B63EAC1B6F534C00E3F19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0B63EAA1B6F534C00E3F19C /* appBookLogin */,
+				F0B63EBF1B6F534D00E3F19C /* appBookLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0B63EA91B6F534C00E3F19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B63EB61B6F534C00E3F19C /* Main.storyboard in Resources */,
+				F0B63EBB1B6F534C00E3F19C /* LaunchScreen.xib in Resources */,
+				F0B63EB81B6F534C00E3F19C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B63EBE1B6F534D00E3F19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EF525B31B61BD4E75345DC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A397B02797FE8EF060CB8F1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appBookLogin/Pods-appBookLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F793A7CF165499D78BE83A7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appBookLogin/Pods-appBookLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0B63EA71B6F534C00E3F19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06F3BCF1B70BC0A004A8FAD /* Djelatnik.swift in Sources */,
+				F06F3BCD1B70AB6E004A8FAD /* KeyChain.swift in Sources */,
+				F0B63EED1B6F7EC700E3F19C /* ALNetworkLogin.swift in Sources */,
+				F0B63EDB1B6F688100E3F19C /* ALBeginScreen.swift in Sources */,
+				F0B63ED81B6F5D6D00E3F19C /* RSWireframe.swift in Sources */,
+				F08E611B1B73638000077C66 /* ALViewControllerBeginScreenV2.swift in Sources */,
+				F0B63EE41B6F73B700E3F19C /* ALPresenter.swift in Sources */,
+				F0B63EE21B6F6F0B00E3F19C /* ALInputInteractor.swift in Sources */,
+				F08E611D1B7375FE00077C66 /* ALViewInputV2.swift in Sources */,
+				F0B63EE01B6F6DDC00E3F19C /* ALInput.swift in Sources */,
+				F0B63EDE1B6F6C8E00E3F19C /* ALBeginPresenter.swift in Sources */,
+				F0B63EE61B6F755200E3F19C /* ALInputPresenter.swift in Sources */,
+				F0B63EB11B6F534C00E3F19C /* AppDelegate.swift in Sources */,
+				F0B63EF01B6F9C0900E3F19C /* ALNetwork.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B63EBC1B6F534D00E3F19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B63EC71B6F534D00E3F19C /* appBookLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0B63EC21B6F534D00E3F19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0B63EAA1B6F534C00E3F19C /* appBookLogin */;
+			targetProxy = F0B63EC11B6F534D00E3F19C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0B63EB41B6F534C00E3F19C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B63EB51B6F534C00E3F19C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0B63EB91B6F534C00E3F19C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0B63EBA1B6F534C00E3F19C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0B63EC81B6F534D00E3F19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0B63EC91B6F534D00E3F19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0B63ECB1B6F534D00E3F19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A0B704D464935392ABD780 /* Pods-appBookLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = appBookLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "appBookLogin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0B63ECC1B6F534D00E3F19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371F8061EB32296FCD6BD5EC /* Pods-appBookLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = appBookLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "appBookLogin-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F0B63ECE1B6F534D00E3F19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = appBookLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appBookLogin.app/appBookLogin";
+			};
+			name = Debug;
+		};
+		F0B63ECF1B6F534D00E3F19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = appBookLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appBookLogin.app/appBookLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0B63EA61B6F534C00E3F19C /* Build configuration list for PBXProject "appBookLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B63EC81B6F534D00E3F19C /* Debug */,
+				F0B63EC91B6F534D00E3F19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B63ECA1B6F534D00E3F19C /* Build configuration list for PBXNativeTarget "appBookLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B63ECB1B6F534D00E3F19C /* Debug */,
+				F0B63ECC1B6F534D00E3F19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0B63ECD1B6F534D00E3F19C /* Build configuration list for PBXNativeTarget "appBookLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B63ECE1B6F534D00E3F19C /* Debug */,
+				F0B63ECF1B6F534D00E3F19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0B63EA31B6F534C00E3F19C /* Project object */;
+}

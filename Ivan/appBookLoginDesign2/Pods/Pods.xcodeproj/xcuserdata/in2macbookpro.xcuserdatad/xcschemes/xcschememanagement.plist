@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Locksmith-Locksmith.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Locksmith.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-appBookLogin.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5FAA07108C0AB1870482EF808DC40F0A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C334209F9CAA5547603E286D5C24B53F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C8D945DF97299F5FCF2487AF0C3B50E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA7153EF958E30E0BFB5A304A5772FD5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

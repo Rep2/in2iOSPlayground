@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pocetna Prijava-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="prijavaPocetna" title="Pocetna Prijava" id="vXZ-lx-hvc" customClass="ALBeginScreen" customModule="appBookLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="CQR-36-Xkk">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="762"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.84999999999999987" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFC-01-Ecu">
+                                <rect key="frame" x="36" y="497" width="247" height="39"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                <state key="normal" title="Prijava">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="prijava:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0Pu-mi-nzp"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appbook" translatesAutoresizingMaskIntoConstraints="NO" id="RrQ-CI-4Z5">
+                                <rect key="frame" x="110" y="150" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="89X-8R-lkV"/>
+                                    <constraint firstAttribute="height" constant="100" id="vrX-n7-cpx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dobrodošli na AppBook" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72h-Ux-U9x">
+                                <rect key="frame" x="16" y="260" width="288" height="82"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="72h-Ux-U9x" secondAttribute="trailing" id="9Pm-hx-wqz"/>
+                            <constraint firstItem="RrQ-CI-4Z5" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="130" id="9sI-S8-g2b"/>
+                            <constraint firstAttribute="centerX" secondItem="MFC-01-Ecu" secondAttribute="centerX" id="AVb-T5-57p"/>
+                            <constraint firstAttribute="centerX" secondItem="72h-Ux-U9x" secondAttribute="centerX" id="EGh-g8-PJ0"/>
+                            <constraint firstItem="72h-Ux-U9x" firstAttribute="top" secondItem="RrQ-CI-4Z5" secondAttribute="bottom" constant="10" id="R9d-W7-4mJ"/>
+                            <constraint firstAttribute="centerX" secondItem="RrQ-CI-4Z5" secondAttribute="centerX" id="UCu-jp-lcR"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="MFC-01-Ecu" secondAttribute="bottom" constant="32" id="XKI-0d-t9x"/>
+                            <constraint firstItem="72h-Ux-U9x" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="frt-tL-ToX"/>
+                            <constraint firstItem="MFC-01-Ecu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="fyh-67-isI"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="backGround" destination="CQR-36-Xkk" id="MVu-Wj-jWy"/>
+                        <outlet property="dobrodosli" destination="72h-Ux-U9x" id="Xof-DA-Imv"/>
+                        <outlet property="prijavaButton" destination="MFC-01-Ecu" id="hbV-sy-BnD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-224" y="45"/>
+        </scene>
+        <!--View Controller Begin ScreenV2-->
+        <scene sceneID="9UB-U9-8Iu">
+            <objects>
+                <viewController storyboardIdentifier="prijavaV2" id="lgs-2h-Iym" customClass="ALViewControllerBeginScreenV2" customModule="appBookLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BOb-fO-Ma5"/>
+                        <viewControllerLayoutGuide type="bottom" id="51g-KC-9dd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8NA-lf-5eE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.89999999999999991" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="mZO-37-DZI">
+                                <rect key="frame" x="-174" y="-97" width="667" height="762"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appbook" translatesAutoresizingMaskIntoConstraints="NO" id="vUd-jw-Q7a">
+                                <rect key="frame" x="100" y="64" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="OqC-A4-hHT"/>
+                                    <constraint firstAttribute="height" constant="120" id="UlL-rv-nHL"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" alpha="0.89999999999999991" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOS-D4-W8Z">
+                                <rect key="frame" x="100" y="384" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="QxZ-CC-G94"/>
+                                    <constraint firstAttribute="width" constant="120" id="Vsi-tW-p6v"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
+                                <state key="normal" title="Prijava">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2FU-8e-aek" kind="show" id="W9D-N7-VgC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dobrodošli!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlu-ay-RNX">
+                                <rect key="frame" x="85" y="204" width="150" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="mZO-37-DZI" secondAttribute="centerX" id="OUh-pR-l2w"/>
+                            <constraint firstAttribute="centerX" secondItem="tlu-ay-RNX" secondAttribute="centerX" id="Ute-BM-AsE"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="zOS-D4-W8Z" secondAttribute="bottom" constant="64" id="qOm-uf-vaB"/>
+                            <constraint firstAttribute="centerX" secondItem="vUd-jw-Q7a" secondAttribute="centerX" id="sFl-NA-Vp5"/>
+                            <constraint firstAttribute="centerY" secondItem="mZO-37-DZI" secondAttribute="centerY" id="tMH-1t-bz1"/>
+                            <constraint firstAttribute="centerX" secondItem="zOS-D4-W8Z" secondAttribute="centerX" id="u3d-tV-n7b"/>
+                            <constraint firstItem="vUd-jw-Q7a" firstAttribute="top" secondItem="8NA-lf-5eE" secondAttribute="topMargin" constant="64" id="wmy-qy-669"/>
+                            <constraint firstItem="tlu-ay-RNX" firstAttribute="top" secondItem="vUd-jw-Q7a" secondAttribute="bottom" constant="20" id="wqb-Q8-ezy"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="dobrodosli" destination="tlu-ay-RNX" id="p9k-u5-noP"/>
+                        <outlet property="prijava" destination="zOS-D4-W8Z" id="YzI-jR-El9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C6Z-Nu-5BS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-224" y="679"/>
+        </scene>
+        <!--PrijavaV2-->
+        <scene sceneID="3Wj-5H-Yqb">
+            <objects>
+                <viewController storyboardIdentifier="loginV2" title="PrijavaV2" id="2FU-8e-aek" customClass="ALViewInputV2" customModule="appBookLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cHV-vz-Tk4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mog-5G-neA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GqQ-kp-4TO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="9eO-Vr-6DK">
+                                <rect key="frame" x="-174" y="-97" width="667" height="762"/>
+                            </imageView>
+                            <view alpha="0.39999999999999963" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TmP-bk-Y82">
+                                <rect key="frame" x="20" y="84" width="280" height="464"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Lozinka" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mje-tj-Eeh">
+                                <rect key="frame" x="35" y="164" width="250" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTu-Rp-psL">
+                                <rect key="frame" x="35" y="234" width="250" height="42"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
+                                <state key="normal" title="Prijava">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Korisničko ime" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WJV-qL-bcz">
+                                <rect key="frame" x="35" y="104" width="250" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="TmP-bk-Y82" secondAttribute="centerX" id="0kr-t6-MN7"/>
+                            <constraint firstAttribute="trailing" secondItem="WJV-qL-bcz" secondAttribute="trailing" constant="35" id="5FQ-3C-wcH"/>
+                            <constraint firstAttribute="centerX" secondItem="WJV-qL-bcz" secondAttribute="centerX" id="6qG-60-Dmr"/>
+                            <constraint firstAttribute="centerX" secondItem="9eO-Vr-6DK" secondAttribute="centerX" id="7Pf-9V-6vb"/>
+                            <constraint firstAttribute="centerX" secondItem="mje-tj-Eeh" secondAttribute="centerX" id="Cu0-2T-hQI"/>
+                            <constraint firstItem="TmP-bk-Y82" firstAttribute="top" secondItem="GqQ-kp-4TO" secondAttribute="topMargin" constant="84" id="F0C-WI-OCy"/>
+                            <constraint firstAttribute="centerX" secondItem="WJV-qL-bcz" secondAttribute="centerX" id="GsJ-We-IWU"/>
+                            <constraint firstItem="mje-tj-Eeh" firstAttribute="leading" secondItem="GqQ-kp-4TO" secondAttribute="leading" constant="35" id="L7I-nb-X3e"/>
+                            <constraint firstItem="vTu-Rp-psL" firstAttribute="top" secondItem="mje-tj-Eeh" secondAttribute="bottom" constant="40" id="O3S-xr-faK"/>
+                            <constraint firstItem="TmP-bk-Y82" firstAttribute="leading" secondItem="GqQ-kp-4TO" secondAttribute="leading" constant="20" id="R93-ad-UNt"/>
+                            <constraint firstItem="WJV-qL-bcz" firstAttribute="leading" secondItem="GqQ-kp-4TO" secondAttribute="leading" constant="35" id="TXQ-cu-VoJ"/>
+                            <constraint firstAttribute="centerX" secondItem="vTu-Rp-psL" secondAttribute="centerX" id="Wxw-9c-C1c"/>
+                            <constraint firstItem="mje-tj-Eeh" firstAttribute="top" secondItem="WJV-qL-bcz" secondAttribute="bottom" constant="30" id="gMd-MP-qH1"/>
+                            <constraint firstItem="WJV-qL-bcz" firstAttribute="top" secondItem="GqQ-kp-4TO" secondAttribute="topMargin" constant="104" id="hG1-VG-Hnw"/>
+                            <constraint firstAttribute="trailing" secondItem="TmP-bk-Y82" secondAttribute="trailing" constant="20" id="hYW-2F-CF3"/>
+                            <constraint firstItem="Mog-5G-neA" firstAttribute="top" secondItem="TmP-bk-Y82" secondAttribute="bottom" constant="20" id="iia-In-xYV"/>
+                            <constraint firstAttribute="centerY" secondItem="9eO-Vr-6DK" secondAttribute="centerY" id="iyf-QD-udi"/>
+                            <constraint firstItem="vTu-Rp-psL" firstAttribute="leading" secondItem="GqQ-kp-4TO" secondAttribute="leading" constant="35" id="tdj-Px-pW2"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="background" destination="TmP-bk-Y82" id="Clu-aH-kzH"/>
+                        <outlet property="password" destination="mje-tj-Eeh" id="uih-JA-wbd"/>
+                        <outlet property="prijava" destination="vTu-Rp-psL" id="a8N-x9-U2T"/>
+                        <outlet property="username" destination="WJV-qL-bcz" id="vqr-mc-XvR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="REi-PM-b9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="249" y="679"/>
+        </scene>
+        <!--Prijava za popunit-->
+        <scene sceneID="4It-3c-zCk">
+            <objects>
+                <viewController storyboardIdentifier="prijava" title="Prijava za popunit" id="YOC-fK-l9H" customClass="ALInput" customModule="appBookLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s5c-GO-eDT"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pcr-9z-cXZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tFz-Uv-mwH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Zaporka" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1BG-hl-JoW">
+                                <rect key="frame" x="26" y="104" width="268" height="30"/>
+                                <color key="tintColor" red="0.59999999999999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Korisničko ime" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P4m-vG-IRd">
+                                <rect key="frame" x="26" y="64" width="268" height="30"/>
+                                <color key="tintColor" red="0.59999999999999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLi-gl-O77">
+                                <rect key="frame" x="26" y="164" width="268" height="42"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
+                                <state key="normal" title="Prijava">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="prijava:" destination="YOC-fK-l9H" eventType="touchUpInside" id="ZhP-hE-gm1"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="J1d-Bt-OvB">
+                                <rect key="frame" x="150" y="274" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="1BG-hl-JoW" secondAttribute="trailing" constant="10" id="3xm-UY-IBp"/>
+                            <constraint firstItem="eLi-gl-O77" firstAttribute="top" secondItem="1BG-hl-JoW" secondAttribute="bottom" constant="30" id="7eX-XZ-irr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eLi-gl-O77" secondAttribute="trailing" constant="10" id="I9w-Y0-k99"/>
+                            <constraint firstItem="P4m-vG-IRd" firstAttribute="leading" secondItem="tFz-Uv-mwH" secondAttribute="leadingMargin" constant="10" id="JMH-83-DQI"/>
+                            <constraint firstAttribute="centerX" secondItem="P4m-vG-IRd" secondAttribute="centerX" id="KvB-13-sVM"/>
+                            <constraint firstAttribute="centerX" secondItem="1BG-hl-JoW" secondAttribute="centerX" id="L7K-mh-e7y"/>
+                            <constraint firstItem="1BG-hl-JoW" firstAttribute="leading" secondItem="tFz-Uv-mwH" secondAttribute="leadingMargin" constant="10" id="VtR-EZ-H9h"/>
+                            <constraint firstItem="1BG-hl-JoW" firstAttribute="top" secondItem="P4m-vG-IRd" secondAttribute="bottom" constant="10" id="b8w-3U-NJB"/>
+                            <constraint firstAttribute="centerY" secondItem="J1d-Bt-OvB" secondAttribute="centerY" id="cnu-e2-wIb"/>
+                            <constraint firstItem="eLi-gl-O77" firstAttribute="leading" secondItem="tFz-Uv-mwH" secondAttribute="leadingMargin" constant="10" id="dzH-aZ-5Ba"/>
+                            <constraint firstAttribute="centerX" secondItem="eLi-gl-O77" secondAttribute="centerX" id="nLK-wU-bC6"/>
+                            <constraint firstAttribute="centerX" secondItem="J1d-Bt-OvB" secondAttribute="centerX" id="qxJ-ZH-Cb2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="P4m-vG-IRd" secondAttribute="trailing" constant="10" id="sMk-jo-X29"/>
+                            <constraint firstItem="P4m-vG-IRd" firstAttribute="top" secondItem="s5c-GO-eDT" secondAttribute="bottom" constant="44" id="xm8-C0-KYR"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="Activity" destination="J1d-Bt-OvB" id="wxl-iA-adv"/>
+                        <outlet property="password" destination="1BG-hl-JoW" id="Yzm-WS-ZXY"/>
+                        <outlet property="username" destination="P4m-vG-IRd" id="XRm-aC-eOy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z2w-SU-ELt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="249" y="45"/>
+        </scene>
+        <!--Logged In-->
+        <scene sceneID="xqa-l6-vUm">
+            <objects>
+                <viewController storyboardIdentifier="loggedIn" title="Logged In" id="ZLl-lg-N4B" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="61j-GB-i4c"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qu9-kD-n8h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gi4-s9-S2W">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="29Z-Ae-xzp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="687" y="45"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="appbook" width="76" height="76"/>
+        <image name="loginScreen" width="667" height="762"/>
+    </resources>
+    <color key="tintColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+</document>
