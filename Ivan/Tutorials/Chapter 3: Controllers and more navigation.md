@@ -23,4 +23,7 @@ The UITabBarController is used when you have multiple views which are conected. 
 This controlles uses a simple view which you can fill with text or some other simple format. You use it as a book and move the pages. A good tutorial can be found [here](https://www.youtube.com/watch?v=8bltsDG2ENQ).
 
 ##UISplitViewController 
-The UISplitViewController or a master detail view is an form that consists of two views. The master and the detail view. The master view is a table view which has multiple atributes. When the user presses one of the rows, the SplitViewController shows the detail view with the data depending on selected row. There are two good tutorial which explain the Split View Controller more detailed. The [first](http://www.raywenderlich.com/94443/uisplitviewcontroller-tutorial-getting-started) and the [second](http://rshankar.com/splitviewcontroller-example-in-swift/)
+The UISplitViewController or a master detail view is a form that consists of two views. The master and the detail view. The master view is a table view which has multiple atributes. When the user presses one of the rows, the SplitViewController shows the detail view with the data depending on selected row. There are two good tutorial which explain the Split View Controller more detailed. The [first](http://www.raywenderlich.com/94443/uisplitviewcontroller-tutorial-getting-started) and the [second](http://rshankar.com/splitviewcontroller-example-in-swift/)
+
+#Task
+Create an application which has uses all the beffore mentioned View Controllers. The application have some logic behind it, and not but just one controller after the other.
