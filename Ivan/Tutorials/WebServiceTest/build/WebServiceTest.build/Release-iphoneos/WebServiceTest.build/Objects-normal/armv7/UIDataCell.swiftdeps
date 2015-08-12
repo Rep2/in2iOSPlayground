@@ -1,0 +1,43 @@
+### Swift dependencies file v0 ###
+provides:
+- "UIDataCell"
+nominals:
+- "C14WebServiceTest10UIDataCell"
+class-members:
+- "UserCell"
+- "shortLabel"
+- "commentsLabel"
+- "setSelected"
+- "setData"
+- "titleLabel"
+- "awakeFromNib"
+top-level:
+- "UITableViewCell"
+- !private "StringLiteralType"
+- !private "toString"
+- "Bool"
+- !private "+"
+- "DPTableData"
+- "UILabel"
+- !private "UnicodeScalarType"
+member-access:
+- "C14WebServiceTest10UIDataCell"
+- "CSo11UIResponder"
+- !private "CSo7UILabel"
+- "CSo15UITableViewCell"
+- !private "C14WebServiceTest11DPTableData"
+- "CSo8NSObject"
+- !private "Sq"
+- "CSo6UIView"
+- "PSs9AnyObject"
+dynamic-lookup:
+cross-module:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/Security.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/CoreImage.swiftmodule"

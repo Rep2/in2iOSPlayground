@@ -1,0 +1,11 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "20a35b46d7ac26e739ec90330c5a0deb"
+inputs: 
+- "/Users/in2macbookpro/Documents/Ivan/WebServiceTest/WebServiceTest/DPTableData.swift"
+- "/Users/in2macbookpro/Documents/Ivan/WebServiceTest/WebServiceTest/UICommentsTableViewCell.swift"
+- "/Users/in2macbookpro/Documents/Ivan/WebServiceTest/WebServiceTest/UIBeginScreenViewController.swift"
+- "/Users/in2macbookpro/Documents/Ivan/WebServiceTest/WebServiceTest/UIDataCell.swift"
+- "/Users/in2macbookpro/Documents/Ivan/WebServiceTest/WebServiceTest/AppDelegate.swift"
+- "/Users/in2macbookpro/Documents/Ivan/WebServiceTest/WebServiceTest/UIDataTableViewController.swift"
+- "/Users/in2macbookpro/Documents/Ivan/WebServiceTest/WebServiceTest/UICommentViewController.swift"
+- "/Users/in2macbookpro/Documents/Ivan/WebServiceTest/WebServiceTest/WebServiceHandler.swift"

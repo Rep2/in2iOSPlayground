@@ -1,0 +1,6 @@
+framework module Pods_WebServiceTest {
+  umbrella header "Pods-WebServiceTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

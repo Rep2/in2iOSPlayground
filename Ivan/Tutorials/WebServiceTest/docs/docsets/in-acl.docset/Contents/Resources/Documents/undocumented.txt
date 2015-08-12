@@ -1,0 +1,3 @@
+UIBeginScreenViewController.swift
+	override public func viewDidLoad()
+	override public func didReceiveMemoryWarning()
