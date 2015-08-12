@@ -26,6 +26,7 @@ For jazzy to work , you comment's must have a specific structure. Comments can s
   - Another usefull keyword is ":see: reference" by which you can referense other documents inside your coments"
 
 Example of documenting in swift for jazzy:
+
 /\*\*<#Short inline description - what it is doing#>
 
 <#Description#>
