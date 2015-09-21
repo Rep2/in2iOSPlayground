@@ -1,4 +1,4 @@
-When starting animation programmaticaly offset table content
+When starting animation programmatically offset table content
 
 ```
 contentOffset = CGPointMake(0, -refresh.bounds.size.height)
@@ -19,7 +19,7 @@ On interaction completion do following
 setTableCells()
 ```
 
-3) Reset table content offset. Set animated true if table was previously empty.
+3) Reset table content offset. Set animated true if the table was previously empty.
 
 ```
 (controller.table as! TableWithRefresh).setContentOffset(CGPointZero, animated: wasEmpty)
